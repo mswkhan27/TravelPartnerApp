@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/loginbackground"
+    android:padding="0dp"
+
+    android:layout_marginRight="-10dp"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/login_rv"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:elevation="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/whitelogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ImageView>
+        <ImageButton
+            android:elevation="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:id="@+id/sign_in_button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/z"
+            android:layout_margin="30dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ImageButton>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
